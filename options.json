@@ -1,0 +1,13 @@
+{
+    "service": {
+        "service_account": "cassandra",
+        "service_account_secret": "cassandra/cassandra-secret",
+        "security": {
+            "transport_encryption": {
+                "enabled": false, 
+                "allow_plaintext": false
+
+            }
+        }
+    }
+}
